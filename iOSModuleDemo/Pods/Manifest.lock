@@ -1,0 +1,36 @@
+PODS:
+  - BeeHive (1.6.0)
+  - BeeHiveModule (0.0.1)
+  - CTMediator-ZW (1.0.0)
+  - CTMediatorModule (0.0.1)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - BeeHive
+  - BeeHiveModule (from `../BeeHiveModule`)
+  - CTMediator-ZW
+  - CTMediatorModule (from `../CTMediatorModule`)
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BeeHive
+    - CTMediator-ZW
+    - Masonry
+
+EXTERNAL SOURCES:
+  BeeHiveModule:
+    :path: "../BeeHiveModule"
+  CTMediatorModule:
+    :path: "../CTMediatorModule"
+
+SPEC CHECKSUMS:
+  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+  BeeHiveModule: b70ed21d004c26007e3343fecb7b6df405c1becc
+  CTMediator-ZW: 59d5c59b74466f3dada26d3745dd72c1d6a9f0f6
+  CTMediatorModule: 5ae62fd0fec28020a0ccc3afbe3926f8dfcb827a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: dc80d348e0b9a7704bfaf7ba3f68bf29356ddace
+
+COCOAPODS: 1.6.1

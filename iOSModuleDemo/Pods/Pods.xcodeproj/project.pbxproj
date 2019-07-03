@@ -1,0 +1,1588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A1E77B03A2BCBA235BEF6D78A3CDAC /* Target_ModuleTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF83379435183EAF88D0444D0472CF /* Target_ModuleTestView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0388F92F9B7CEB2861637343F1475620 /* ModuleTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E54C2B98CCAB1B2EBB937D8083EC3FD /* ModuleTestView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		06A4624C0490881FD7962E6F2768469F /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB750A7C8F547C24ED3DDC212A6691A /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F1CEF2B08D18B900A16F3249C96DBEF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B13702D9B5819DA64B47E571F99C3A /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F82BCBE8FAC410E208CBCC7C5A74D1C /* ModuleTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5158F612313427F5F89505579C6A9FF /* ModuleTestView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		110C187C5F3EAF54838BC6C0500765BA /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1708660A157CB3FE8B6647CB237F73CE /* BHServiceManager.m */; };
+		147370B40CE853ADCC91F9C81FF5E5FA /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A0FC6AD32AAAFC8BDB8E28A840FDC4 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CDB70C2CDDE77AACEA74170E6935626 /* CTMediator-ZW-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ADEB192E3B55B8384EE048AA9123E9 /* CTMediator-ZW-dummy.m */; };
+		1CEC1B6A75E47389A396D455D3D0C6BB /* BHModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CF265A27972683626C5B226D9C5563A4 /* BHModuleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D12FE6ABBFFDECF65CA15759AD0E411 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC318C812D80EDC8124EFF7F9CB8EC2 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E3B9E29E64A41419BADE54AEFDAF08E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 955D60EEC101A72747ACD674C6A78D0B /* MASCompositeConstraint.m */; };
+		219F170BCAB27F8FC6475EE9265B4965 /* CTMediatorModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A956E8F41897B95B84FE14C63EF1F2A6 /* CTMediatorModule-dummy.m */; };
+		24F67F67B66D71384E9B66CF81AF84B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C04F677332A1102F03500E17D4D192 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29214D8D2E69809E66F0C8A98A36BCCE /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 843EB33ADA6F8CE569FC505C840A0152 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34D6D9E7FEAF947841106F0662A2E52D /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930F82CDA0AD730502B219F12EFABF /* Masonry-dummy.m */; };
+		3E446A21972E885799E45356D11C2F4F /* Pods-iOSModuleDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA99E517C87579B06171C810A6618478 /* Pods-iOSModuleDemo-dummy.m */; };
+		40A4E0B4ED2B15F644A9F056EDC100E3 /* Pods-iOSModuleDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB327B59DF37E0B410C5E2C6ADB2FB4 /* Pods-iOSModuleDemoTests-dummy.m */; };
+		40E3CEF5E1C5D40690C42C4F5DD7B566 /* BHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4E0DCCFA1C99FCAB40508A01689C95 /* BHConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		459C9750455F1A7E6362321BFC185820 /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F99BFBC2F039E88D2032A5DB72093F0 /* BHAppDelegate.m */; };
+		52862FCA26B576483345E1D91217DCFA /* BHWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5E05F24B2521889A2600DE8B3F275F /* BHWatchDog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56C5A6BE0B9B83B3027998B080B9DC35 /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAB592D41F46FB998288F1F990AC76E /* BHConfig.m */; };
+		591F1FA04AB069DD22008A8BABAAB829 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3028BF9175CA7E45EDBE5CA958D03A /* MASViewConstraint.m */; };
+		5E44F7CFDA34CB0B1F1A65A19641AC7D /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C36A64A09E8DE4AFE888374078EB37F1 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60DC27F14226DDD592FA1464C2DA0C2E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62B24385708ED3318885AE8AD40F07 /* MASConstraintMaker.m */; };
+		62ED0D1B1D2D5EF2225776A9C2BAF4DA /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DC79D60F516885A2A7CEECD975923F /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66B4C14CCC5B9E8F9CA8BA457EED65E8 /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E0DD3DA7F8639297136A03CD33932D /* BeeHive.m */; };
+		68E4FCB6C57092092F45D5BC215D3DEF /* Pods-iOSModuleDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 434586A3D8FA5788EB88FB972C721AF8 /* Pods-iOSModuleDemoUITests-dummy.m */; };
+		6EA09924108BA6C1E7D2138CE112D5E9 /* BHServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D4AFF091DD40FB6D7DCA31A23A5311 /* BHServiceManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7429EE12BB147F80BF95CD431A885980 /* CTMediator+ModuleTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C3259FD350CF2080EA911E032B0E3BAA /* CTMediator+ModuleTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74B96E9D040112F98644F5A395D817B8 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC6AC8D575F5DA13BC0C13B4F156C5A /* CTMediator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7C31AFA9C95568E16B6911B670754372 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CACBA33A789AE6C3416F00C8CF478E30 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		834D1BB9656D3E64B2AF8C0E0119A37F /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A8470A8621695B5928209AF1CE853B /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84E3B5B044631D4A1B9E5D7ADD6C023C /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C08840A26FE33C9600936AE5914713 /* BHRouter.m */; };
+		8604DC8631BBABD2B57B6BC5F94DBDA4 /* BHContext.h in Headers */ = {isa = PBXBuildFile; fileRef = B1DBD408301591840894CC49B36EE888 /* BHContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88ABCF0C5BA5BADF0CF452AA04BC9A78 /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 232A447AD94B21E5AFEE747096316CDE /* BHAnnotation.m */; };
+		88C4279010000204DF2678A864F334A3 /* BeeHiveViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A721B2EFDFF254D06C8D9E5040885771 /* BeeHiveViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A547EA604541681BA266A290E97CB54 /* BeeHiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A2162E0B9559C50F7EB4E8700F1A0 /* BeeHiveViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8D4A327F7A854D4224FD4D9F943DAE07 /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491BEA806701E7D82EE1782F923E8BA /* BHWatchDog.m */; };
+		93BEF8B692DA67A649705F80C335EACA /* BHAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A927B483E602BE382139A6C7A2B7E5B7 /* BHAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96DB2AB39DFEB82319EF630730FDE4FD /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DAFFFEDFB87E1516EE134461635390 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		985A2A913A8197CFC5DFF96658AA59CB /* BHModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A87269F095BB8BBA5ACB3947BDD643A /* BHModuleProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9AEF7D1DE8F4A28F758C928D0BAE4FC8 /* Target_ModuleTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 628FF835F3400EA723A47D2477832EB0 /* Target_ModuleTestView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F7245F368B8CD09FE3F2C36BAA2842D /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD692663A9B325F4100147CFA5D1E8 /* MASViewAttribute.m */; };
+		A2F5609937D6130E41F2484FEFBFC36A /* BHCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB784F91D8E9B08AF2581B39088CF4B /* BHCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB74AF1EEF7E9D9855E150F344F8CBD5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D32326E732868DCBE73F0D85B66ACE /* MASLayoutConstraint.m */; };
+		B0428391B2EF487F75B58582B951A1A5 /* BeeHive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93622E7F8AFF95574D552145A1F2B5FF /* BeeHive-dummy.m */; };
+		B5F8B45888F4DFECC89DBA2B0307C178 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E085EB73E755A616B3BA1A102AEB99 /* MASConstraint.m */; };
+		B9FCAB4EF2F2CD0AB3254E5FEBE66B7C /* BHServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F222AA6B27BE6CE6DA225088A8D595 /* BHServiceProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA22A97927BF4326DE8FAF546E3D7AA2 /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF951FC690C6B5BE37280DEAC1FFD4 /* BHTimeProfiler.m */; };
+		BF94A55E2CDE74BA27FDA453E17265CD /* BHTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D121F2881A9741BD070F5927E985FA /* BHTimeProfiler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1C295BCD795C2B6044DB474583804B1 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D99F884F92C1E42E99BD3E1855961F72 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3A19F937E4DC898260DEA69D984FCEA /* BeeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D10E0E683D150545286B26E97D8834E /* BeeModule.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3B20003CAB0D7891005C42A9376030A /* BHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = FCECC6150D1B873B63761817D2EB1263 /* BHRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C48DF5D21345BD3D127256C6AD3AEFD4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBAEFEA6C49FC859499557D3E2F804F /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C6776BC0C4D4589B08AAD16735A9AA66 /* BHAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEB32389E2BD234E165C36B4B81821C /* BHAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7AC29F56D5F471248BBA0A724CDF3C7 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 76340D139D11CB62FE99225941AD7537 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA216F45B25413DB36FA139AC29D5B56 /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB480B463DB563209833C9D1A27CF062 /* BHModuleManager.m */; };
+		CB933D3C6AC62B87771E998124EA9CE8 /* BeeHive.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F9D70EFDF4E5832561BF57860BDB53 /* BeeHive.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBAE84BDB22FECC10EC64084D856E8B8 /* BHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B888E06F06899BCBAABBCFD427113E /* BHDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1D4442E6949DAF0EB2688A85F889E8D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39D3A1DF9B939FDE7FC8425C1D8129 /* ViewController+MASAdditions.m */; };
+		D59F2BB9843C83057A2BAAD5054B68AE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA8B4AFE0135E78CFBB09F2530A2CB /* NSArray+MASAdditions.m */; };
+		E02DA9E8A50136D9558642E8E21FD948 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA69D3050CDBF02C0B79D793ED151ED /* CTMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3B810A8865EAA96B680EF1D14B75FBB /* BeeHiveModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A4E1BB28F0D7112BB8A08630B8ACD /* BeeHiveModule-dummy.m */; };
+		E7B08F9E7D9FEE0BCC740EEB7FA4FFAC /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 464262547FC5231F14819A5164FDCBEB /* BHContext.m */; };
+		E94F68ABEAC53DD4556594E0EE4EAD57 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F08336A03134D0D7704FDE0FF2D259 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAED263ADDF8EBE21F1EE02F9FB8FD7E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D722E575A9798248912AB0A50D9113E /* View+MASAdditions.m */; };
+		EB5D32B843C32E86B58FB8A895D4D1C7 /* BeeServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B0871E965764260D5F064550060511 /* BeeServiceProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0223A4EEF0A05E2DBC75767471884A2 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1298104659974B5583547A0A9D76BAA1 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD7145D129F6C9B749873228382F4598 /* BeeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 92090883D3CB4B4A0E9C1057860E7727 /* BeeModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDEDBC3A2CFD84C9A4E75278C401F5FB /* CTMediator+ModuleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 622FAA5E9C772E8B3F59E23603EFCE65 /* CTMediator+ModuleTest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B0096C3B4E979B95ABD975FF202E189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADDD5BC6EF4D8B7FF19D607FBA18A3C3;
+			remoteInfo = CTMediatorModule;
+		};
+		4C139D3008967AF91BFD0F16AEDFB848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2A27C6BF87C3EB8B88FAB7FA9CE794;
+			remoteInfo = "CTMediator-ZW";
+		};
+		77C17061AC9A3BF2F78A10ED7A059221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7DA1E50832664D549F878F8C4C4904C;
+			remoteInfo = BeeHive;
+		};
+		9C282F4874F63671B7D4845F305F71A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B854683690DC218F2B6E2FFDB0D27CDC;
+			remoteInfo = Masonry;
+		};
+		A86D2E4BD9C4FC53D87BE1E93FE4DECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A48815704C417CF473F411AA17906260;
+			remoteInfo = BeeHiveModule;
+		};
+		C7A4F9680FE49EC1110A2ACCFBFB8F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A05C0CC59C7EBB5C3E1070F66013A9;
+			remoteInfo = "Pods-iOSModuleDemo";
+		};
+		F4795A56A59455ED7286A602C19AAF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A05C0CC59C7EBB5C3E1070F66013A9;
+			remoteInfo = "Pods-iOSModuleDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0491BEA806701E7D82EE1782F923E8BA /* BHWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHWatchDog.m; path = BeeHive/BHWatchDog.m; sourceTree = "<group>"; };
+		06C04F677332A1102F03500E17D4D192 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		081938525E96FC477A5AA3DEE3E199A9 /* Pods-iOSModuleDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSModuleDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		08DAFFFEDFB87E1516EE134461635390 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0ADDCD72F240D513D5C868E5E2FAE20B /* libPods-iOSModuleDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iOSModuleDemoUITests.a"; path = "libPods-iOSModuleDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C312F0425F924C1C4918A9FEC5B9A0D /* Pods-iOSModuleDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSModuleDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FD90207A365C8FAAB4D51AC4D984CE0 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1298104659974B5583547A0A9D76BAA1 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		14A0FC6AD32AAAFC8BDB8E28A840FDC4 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		1708660A157CB3FE8B6647CB237F73CE /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = BeeHive/BHServiceManager.m; sourceTree = "<group>"; };
+		22E085EB73E755A616B3BA1A102AEB99 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		232A447AD94B21E5AFEE747096316CDE /* BHAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAnnotation.m; path = BeeHive/BHAnnotation.m; sourceTree = "<group>"; };
+		23F08336A03134D0D7704FDE0FF2D259 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		24F9D70EFDF4E5832561BF57860BDB53 /* BeeHive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeHive.h; path = BeeHive/BeeHive.h; sourceTree = "<group>"; };
+		289726BD22D4084FF9E5C162E2C33E11 /* CTMediatorModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediatorModule.xcconfig; sourceTree = "<group>"; };
+		2A3028BF9175CA7E45EDBE5CA958D03A /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		2BDD692663A9B325F4100147CFA5D1E8 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		2F99BFBC2F039E88D2032A5DB72093F0 /* BHAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAppDelegate.m; path = BeeHive/BHAppDelegate.m; sourceTree = "<group>"; };
+		37A8470A8621695B5928209AF1CE853B /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		38B0575CE56B780DCF39ADED4AB62910 /* libCTMediatorModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediatorModule.a; path = libCTMediatorModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4A2162E0B9559C50F7EB4E8700F1A0 /* BeeHiveViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeHiveViewController.m; path = Class/BeeHiveViewController.m; sourceTree = "<group>"; };
+		3BB6264E9EBE304C1BD78EEF79525EDD /* CTMediator-ZW-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-ZW-prefix.pch"; sourceTree = "<group>"; };
+		3D50235AC7C715B34005E48649F04289 /* Pods-iOSModuleDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSModuleDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ECA8B4AFE0135E78CFBB09F2530A2CB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		434586A3D8FA5788EB88FB972C721AF8 /* Pods-iOSModuleDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSModuleDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		45B0871E965764260D5F064550060511 /* BeeServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeServiceProtocol.h; path = Class/BeeServiceProtocol.h; sourceTree = "<group>"; };
+		464262547FC5231F14819A5164FDCBEB /* BHContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHContext.m; path = BeeHive/BHContext.m; sourceTree = "<group>"; };
+		4DBF690868DBC318298866472BA81018 /* CTMediatorModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediatorModule-prefix.pch"; sourceTree = "<group>"; };
+		4F4E0DCCFA1C99FCAB40508A01689C95 /* BHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHConfig.h; path = BeeHive/BHConfig.h; sourceTree = "<group>"; };
+		51BF951FC690C6B5BE37280DEAC1FFD4 /* BHTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHTimeProfiler.m; path = BeeHive/BHTimeProfiler.m; sourceTree = "<group>"; };
+		5252DB72BE8A8D1ACDE43DAD0485C1A8 /* BeeHive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeeHive.bundle; path = BeeHive/BeeHive.bundle; sourceTree = "<group>"; };
+		576004418C285ED4E05208A71A675B5A /* Pods-iOSModuleDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSModuleDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5AAB592D41F46FB998288F1F990AC76E /* BHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHConfig.m; path = BeeHive/BHConfig.m; sourceTree = "<group>"; };
+		5D10E0E683D150545286B26E97D8834E /* BeeModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeModule.m; path = Class/BeeModule.m; sourceTree = "<group>"; };
+		622FAA5E9C772E8B3F59E23603EFCE65 /* CTMediator+ModuleTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+ModuleTest.m"; path = "Class/CTMediator+ModuleTest.m"; sourceTree = "<group>"; };
+		628FF835F3400EA723A47D2477832EB0 /* Target_ModuleTestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_ModuleTestView.h; path = Class/Target_ModuleTestView.h; sourceTree = "<group>"; };
+		63780C0919505EF0E7365B3A070561F5 /* Pods-iOSModuleDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSModuleDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		64E0CC980FBB8DC2F08200696E0C4566 /* Pods-iOSModuleDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSModuleDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6561893A0F77556A2395DA4A8AA508D5 /* Pods-iOSModuleDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSModuleDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		71D121F2881A9741BD070F5927E985FA /* BHTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHTimeProfiler.h; path = BeeHive/BHTimeProfiler.h; sourceTree = "<group>"; };
+		71DC79D60F516885A2A7CEECD975923F /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		7514A463673369E4C898DE5B10D9FF1B /* libPods-iOSModuleDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iOSModuleDemoTests.a"; path = "libPods-iOSModuleDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76340D139D11CB62FE99225941AD7537 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		7AEB32389E2BD234E165C36B4B81821C /* BHAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAnnotation.h; path = BeeHive/BHAnnotation.h; sourceTree = "<group>"; };
+		7B7FD9AB8A6F4BF34D31F237C262207D /* libBeeHiveModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBeeHiveModule.a; path = libBeeHiveModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1A4E1BB28F0D7112BB8A08630B8ACD /* BeeHiveModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeeHiveModule-dummy.m"; sourceTree = "<group>"; };
+		7D722E575A9798248912AB0A50D9113E /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		7E54C2B98CCAB1B2EBB937D8083EC3FD /* ModuleTestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTestView.m; path = Class/ModuleTestView.m; sourceTree = "<group>"; };
+		7FC6AC8D575F5DA13BC0C13B4F156C5A /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		82E0DD3DA7F8639297136A03CD33932D /* BeeHive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeHive.m; path = BeeHive/BeeHive.m; sourceTree = "<group>"; };
+		83F222AA6B27BE6CE6DA225088A8D595 /* BHServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceProtocol.h; path = BeeHive/BHServiceProtocol.h; sourceTree = "<group>"; };
+		843EB33ADA6F8CE569FC505C840A0152 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		8DB327B59DF37E0B410C5E2C6ADB2FB4 /* Pods-iOSModuleDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSModuleDemoTests-dummy.m"; sourceTree = "<group>"; };
+		8EF613726D69D14EFFAED23556998D26 /* Pods-iOSModuleDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSModuleDemo-resources.sh"; sourceTree = "<group>"; };
+		915DD40506630FF1DE787496FC1B6E48 /* BeeHive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeeHive-prefix.pch"; sourceTree = "<group>"; };
+		92090883D3CB4B4A0E9C1057860E7727 /* BeeModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeModule.h; path = Class/BeeModule.h; sourceTree = "<group>"; };
+		93622E7F8AFF95574D552145A1F2B5FF /* BeeHive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeeHive-dummy.m"; sourceTree = "<group>"; };
+		955D60EEC101A72747ACD674C6A78D0B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		99D4AFF091DD40FB6D7DCA31A23A5311 /* BHServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceManager.h; path = BeeHive/BHServiceManager.h; sourceTree = "<group>"; };
+		9A87269F095BB8BBA5ACB3947BDD643A /* BHModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleProtocol.h; path = BeeHive/BHModuleProtocol.h; sourceTree = "<group>"; };
+		9AFFD94611DA310668503198FBD50C06 /* CTMediator-ZW.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CTMediator-ZW.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB784F91D8E9B08AF2581B39088CF4B /* BHCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHCommon.h; path = BeeHive/BHCommon.h; sourceTree = "<group>"; };
+		A3666034B94AE81FEA2DD89817B47AF1 /* BeeHiveModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeeHiveModule-prefix.pch"; sourceTree = "<group>"; };
+		A3B2735F6CB7E24CE89815303350CA3E /* BeeHiveModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BeeHiveModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6DF83379435183EAF88D0444D0472CF /* Target_ModuleTestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_ModuleTestView.m; path = Class/Target_ModuleTestView.m; sourceTree = "<group>"; };
+		A721B2EFDFF254D06C8D9E5040885771 /* BeeHiveViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeHiveViewController.h; path = Class/BeeHiveViewController.h; sourceTree = "<group>"; };
+		A7708EA16B7B150A437CFE356EF48CB7 /* Pods-iOSModuleDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSModuleDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A927B483E602BE382139A6C7A2B7E5B7 /* BHAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAppDelegate.h; path = BeeHive/BHAppDelegate.h; sourceTree = "<group>"; };
+		A956E8F41897B95B84FE14C63EF1F2A6 /* CTMediatorModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediatorModule-dummy.m"; sourceTree = "<group>"; };
+		AB62B24385708ED3318885AE8AD40F07 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		ACB750A7C8F547C24ED3DDC212A6691A /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		B1DBD408301591840894CC49B36EE888 /* BHContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHContext.h; path = BeeHive/BHContext.h; sourceTree = "<group>"; };
+		B72D4B50D9C16DC08C81A9C727A0D8C3 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		B7D595FC2E0AF98B47C09BD4B125EA5C /* BeeHiveModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeeHiveModule.xcconfig; sourceTree = "<group>"; };
+		BA3368981886DADC4589A8C1ACE5987F /* Pods-iOSModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BAD9303FA028ED3155C68D14CB729D87 /* Pods-iOSModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BD4CB2E9FEA7BFD6E236AE5F7A835723 /* Pods-iOSModuleDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSModuleDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C22E9123B3167DC56288255076C863F8 /* libCTMediator-ZW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libCTMediator-ZW.a"; path = "libCTMediator-ZW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3259FD350CF2080EA911E032B0E3BAA /* CTMediator+ModuleTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ModuleTest.h"; path = "Class/CTMediator+ModuleTest.h"; sourceTree = "<group>"; };
+		C36A64A09E8DE4AFE888374078EB37F1 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C3A6E13FB2442AACA3BB8B2128CE738F /* Pods-iOSModuleDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSModuleDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6C08840A26FE33C9600936AE5914713 /* BHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHRouter.m; path = BeeHive/BHRouter.m; sourceTree = "<group>"; };
+		C7D32326E732868DCBE73F0D85B66ACE /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		C98B9906125D0BBBD149B503F8A70DA8 /* libBeeHive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBeeHive.a; path = libBeeHive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5E05F24B2521889A2600DE8B3F275F /* BHWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHWatchDog.h; path = BeeHive/BHWatchDog.h; sourceTree = "<group>"; };
+		CAC318C812D80EDC8124EFF7F9CB8EC2 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		CACBA33A789AE6C3416F00C8CF478E30 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		CB480B463DB563209833C9D1A27CF062 /* BHModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHModuleManager.m; path = BeeHive/BHModuleManager.m; sourceTree = "<group>"; };
+		CE4D0649DEC01261E21AD2B0104B7B00 /* libPods-iOSModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iOSModuleDemo.a"; path = "libPods-iOSModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF265A27972683626C5B226D9C5563A4 /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = BeeHive/BHModuleManager.h; sourceTree = "<group>"; };
+		D2ADEB192E3B55B8384EE048AA9123E9 /* CTMediator-ZW-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-ZW-dummy.m"; sourceTree = "<group>"; };
+		D2B888E06F06899BCBAABBCFD427113E /* BHDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHDefines.h; path = BeeHive/BHDefines.h; sourceTree = "<group>"; };
+		D99F884F92C1E42E99BD3E1855961F72 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DA930F82CDA0AD730502B219F12EFABF /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		DA99E517C87579B06171C810A6618478 /* Pods-iOSModuleDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSModuleDemo-dummy.m"; sourceTree = "<group>"; };
+		DFBAEFEA6C49FC859499557D3E2F804F /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		DFFC800E41670EBCB19485765AB7033E /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		E1B13702D9B5819DA64B47E571F99C3A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		EA4730337931C221B85FDE633ABFF388 /* CTMediatorModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CTMediatorModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F469C23D360E9CB9D2675D1576472665 /* BeeHive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeeHive.xcconfig; sourceTree = "<group>"; };
+		F5158F612313427F5F89505579C6A9FF /* ModuleTestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTestView.h; path = Class/ModuleTestView.h; sourceTree = "<group>"; };
+		FA39D3A1DF9B939FDE7FC8425C1D8129 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FCECC6150D1B873B63761817D2EB1263 /* BHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHRouter.h; path = BeeHive/BHRouter.h; sourceTree = "<group>"; };
+		FDA69D3050CDBF02C0B79D793ED151ED /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE390D3BC0C793C5BE34181038B0F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0A8E3741C526A5E692BC509794E501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52C972566392F3ED485B4C947B6E7FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8C7DED95492267EDDB1C37EC5581CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBD49DF5D9D5A82183EFE5EB1C1672F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B7D22817A4DA5FE2B1806B94D3CA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C9C99CA0FC3A3580006DFA14CEEBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8108827BDFA645D4CF93DA3195C1A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA024A6F74EB9F7DDBCD686AAD334CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87D907E74F965BD0D8242E684940860B /* BeeHive */,
+				E51B66D5A7409AD3A6D9AEE852977942 /* CTMediator-ZW */,
+				E17A43A9393CDD3F219CF0FFDD0DFB74 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		199DCEB41E1DCFBA0EEAA3F0266F3B23 /* BeeHiveModule */ = {
+			isa = PBXGroup;
+			children = (
+				A721B2EFDFF254D06C8D9E5040885771 /* BeeHiveViewController.h */,
+				3A4A2162E0B9559C50F7EB4E8700F1A0 /* BeeHiveViewController.m */,
+				92090883D3CB4B4A0E9C1057860E7727 /* BeeModule.h */,
+				5D10E0E683D150545286B26E97D8834E /* BeeModule.m */,
+				45B0871E965764260D5F064550060511 /* BeeServiceProtocol.h */,
+				C45B35E1735A50894C92305E4153A2CF /* Pod */,
+				B3D3637B05ABB74FDB7C071460304847 /* Support Files */,
+			);
+			name = BeeHiveModule;
+			path = ../../BeeHiveModule;
+			sourceTree = "<group>";
+		};
+		1A9DE2EFB0E23A44A8E0EC7BF8468E03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5252DB72BE8A8D1ACDE43DAD0485C1A8 /* BeeHive.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3CE639320A2D154A3F3EA5D417C8E89E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA4730337931C221B85FDE633ABFF388 /* CTMediatorModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		52775A175736B88CEF67645284ACEF89 /* Pods-iOSModuleDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6E13FB2442AACA3BB8B2128CE738F /* Pods-iOSModuleDemoUITests-acknowledgements.markdown */,
+				6561893A0F77556A2395DA4A8AA508D5 /* Pods-iOSModuleDemoUITests-acknowledgements.plist */,
+				434586A3D8FA5788EB88FB972C721AF8 /* Pods-iOSModuleDemoUITests-dummy.m */,
+				3D50235AC7C715B34005E48649F04289 /* Pods-iOSModuleDemoUITests.debug.xcconfig */,
+				081938525E96FC477A5AA3DEE3E199A9 /* Pods-iOSModuleDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-iOSModuleDemoUITests";
+			path = "Target Support Files/Pods-iOSModuleDemoUITests";
+			sourceTree = "<group>";
+		};
+		713D037204C0F4BC1B76071D6A2D2740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C98B9906125D0BBBD149B503F8A70DA8 /* libBeeHive.a */,
+				7B7FD9AB8A6F4BF34D31F237C262207D /* libBeeHiveModule.a */,
+				C22E9123B3167DC56288255076C863F8 /* libCTMediator-ZW.a */,
+				38B0575CE56B780DCF39ADED4AB62910 /* libCTMediatorModule.a */,
+				0FD90207A365C8FAAB4D51AC4D984CE0 /* libMasonry.a */,
+				CE4D0649DEC01261E21AD2B0104B7B00 /* libPods-iOSModuleDemo.a */,
+				7514A463673369E4C898DE5B10D9FF1B /* libPods-iOSModuleDemoTests.a */,
+				0ADDCD72F240D513D5C868E5E2FAE20B /* libPods-iOSModuleDemoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87D907E74F965BD0D8242E684940860B /* BeeHive */ = {
+			isa = PBXGroup;
+			children = (
+				24F9D70EFDF4E5832561BF57860BDB53 /* BeeHive.h */,
+				82E0DD3DA7F8639297136A03CD33932D /* BeeHive.m */,
+				7AEB32389E2BD234E165C36B4B81821C /* BHAnnotation.h */,
+				232A447AD94B21E5AFEE747096316CDE /* BHAnnotation.m */,
+				A927B483E602BE382139A6C7A2B7E5B7 /* BHAppDelegate.h */,
+				2F99BFBC2F039E88D2032A5DB72093F0 /* BHAppDelegate.m */,
+				9DB784F91D8E9B08AF2581B39088CF4B /* BHCommon.h */,
+				4F4E0DCCFA1C99FCAB40508A01689C95 /* BHConfig.h */,
+				5AAB592D41F46FB998288F1F990AC76E /* BHConfig.m */,
+				B1DBD408301591840894CC49B36EE888 /* BHContext.h */,
+				464262547FC5231F14819A5164FDCBEB /* BHContext.m */,
+				D2B888E06F06899BCBAABBCFD427113E /* BHDefines.h */,
+				CF265A27972683626C5B226D9C5563A4 /* BHModuleManager.h */,
+				CB480B463DB563209833C9D1A27CF062 /* BHModuleManager.m */,
+				9A87269F095BB8BBA5ACB3947BDD643A /* BHModuleProtocol.h */,
+				FCECC6150D1B873B63761817D2EB1263 /* BHRouter.h */,
+				C6C08840A26FE33C9600936AE5914713 /* BHRouter.m */,
+				99D4AFF091DD40FB6D7DCA31A23A5311 /* BHServiceManager.h */,
+				1708660A157CB3FE8B6647CB237F73CE /* BHServiceManager.m */,
+				83F222AA6B27BE6CE6DA225088A8D595 /* BHServiceProtocol.h */,
+				71D121F2881A9741BD070F5927E985FA /* BHTimeProfiler.h */,
+				51BF951FC690C6B5BE37280DEAC1FFD4 /* BHTimeProfiler.m */,
+				CA5E05F24B2521889A2600DE8B3F275F /* BHWatchDog.h */,
+				0491BEA806701E7D82EE1782F923E8BA /* BHWatchDog.m */,
+				1A9DE2EFB0E23A44A8E0EC7BF8468E03 /* Resources */,
+				9EF71D2148B8E7C1A9082D3D09EE35B2 /* Support Files */,
+			);
+			name = BeeHive;
+			path = BeeHive;
+			sourceTree = "<group>";
+		};
+		8D4A14662F8FF6A3FC46373FE2FBEA0A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				199DCEB41E1DCFBA0EEAA3F0266F3B23 /* BeeHiveModule */,
+				D0D00859F2C55B696AB15564D1F6A011 /* CTMediatorModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		988F1FD98772AE55FBEECCFDF20CC459 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AFFD94611DA310668503198FBD50C06 /* CTMediator-ZW.xcconfig */,
+				D2ADEB192E3B55B8384EE048AA9123E9 /* CTMediator-ZW-dummy.m */,
+				3BB6264E9EBE304C1BD78EEF79525EDD /* CTMediator-ZW-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator-ZW";
+			sourceTree = "<group>";
+		};
+		9EF71D2148B8E7C1A9082D3D09EE35B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F469C23D360E9CB9D2675D1576472665 /* BeeHive.xcconfig */,
+				93622E7F8AFF95574D552145A1F2B5FF /* BeeHive-dummy.m */,
+				915DD40506630FF1DE787496FC1B6E48 /* BeeHive-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BeeHive";
+			sourceTree = "<group>";
+		};
+		AE21F1A04A757650E8F9370E0CF7659E /* Pods-iOSModuleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0C312F0425F924C1C4918A9FEC5B9A0D /* Pods-iOSModuleDemo-acknowledgements.markdown */,
+				64E0CC980FBB8DC2F08200696E0C4566 /* Pods-iOSModuleDemo-acknowledgements.plist */,
+				DA99E517C87579B06171C810A6618478 /* Pods-iOSModuleDemo-dummy.m */,
+				8EF613726D69D14EFFAED23556998D26 /* Pods-iOSModuleDemo-resources.sh */,
+				BA3368981886DADC4589A8C1ACE5987F /* Pods-iOSModuleDemo.debug.xcconfig */,
+				BAD9303FA028ED3155C68D14CB729D87 /* Pods-iOSModuleDemo.release.xcconfig */,
+			);
+			name = "Pods-iOSModuleDemo";
+			path = "Target Support Files/Pods-iOSModuleDemo";
+			sourceTree = "<group>";
+		};
+		B3D3637B05ABB74FDB7C071460304847 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7D595FC2E0AF98B47C09BD4B125EA5C /* BeeHiveModule.xcconfig */,
+				7D1A4E1BB28F0D7112BB8A08630B8ACD /* BeeHiveModule-dummy.m */,
+				A3666034B94AE81FEA2DD89817B47AF1 /* BeeHiveModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../iOSModuleDemo/Pods/Target Support Files/BeeHiveModule";
+			sourceTree = "<group>";
+		};
+		C45B35E1735A50894C92305E4153A2CF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2735F6CB7E24CE89815303350CA3E /* BeeHiveModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CE65D8EE89B8749FC1BC98E612517B06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE21F1A04A757650E8F9370E0CF7659E /* Pods-iOSModuleDemo */,
+				E5CD6973C5A5A4F0AD161D6DBEEDD38D /* Pods-iOSModuleDemoTests */,
+				52775A175736B88CEF67645284ACEF89 /* Pods-iOSModuleDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8D4A14662F8FF6A3FC46373FE2FBEA0A /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0CA024A6F74EB9F7DDBCD686AAD334CC /* Pods */,
+				713D037204C0F4BC1B76071D6A2D2740 /* Products */,
+				CE65D8EE89B8749FC1BC98E612517B06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D00859F2C55B696AB15564D1F6A011 /* CTMediatorModule */ = {
+			isa = PBXGroup;
+			children = (
+				C3259FD350CF2080EA911E032B0E3BAA /* CTMediator+ModuleTest.h */,
+				622FAA5E9C772E8B3F59E23603EFCE65 /* CTMediator+ModuleTest.m */,
+				F5158F612313427F5F89505579C6A9FF /* ModuleTestView.h */,
+				7E54C2B98CCAB1B2EBB937D8083EC3FD /* ModuleTestView.m */,
+				628FF835F3400EA723A47D2477832EB0 /* Target_ModuleTestView.h */,
+				A6DF83379435183EAF88D0444D0472CF /* Target_ModuleTestView.m */,
+				3CE639320A2D154A3F3EA5D417C8E89E /* Pod */,
+				EB0AE03C3E1016C378E784E80F803E76 /* Support Files */,
+			);
+			name = CTMediatorModule;
+			path = ../../CTMediatorModule;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E17A43A9393CDD3F219CF0FFDD0DFB74 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E1B13702D9B5819DA64B47E571F99C3A /* MASCompositeConstraint.h */,
+				955D60EEC101A72747ACD674C6A78D0B /* MASCompositeConstraint.m */,
+				37A8470A8621695B5928209AF1CE853B /* MASConstraint.h */,
+				22E085EB73E755A616B3BA1A102AEB99 /* MASConstraint.m */,
+				D99F884F92C1E42E99BD3E1855961F72 /* MASConstraint+Private.h */,
+				ACB750A7C8F547C24ED3DDC212A6691A /* MASConstraintMaker.h */,
+				AB62B24385708ED3318885AE8AD40F07 /* MASConstraintMaker.m */,
+				1298104659974B5583547A0A9D76BAA1 /* MASLayoutConstraint.h */,
+				C7D32326E732868DCBE73F0D85B66ACE /* MASLayoutConstraint.m */,
+				76340D139D11CB62FE99225941AD7537 /* Masonry.h */,
+				23F08336A03134D0D7704FDE0FF2D259 /* MASUtilities.h */,
+				71DC79D60F516885A2A7CEECD975923F /* MASViewAttribute.h */,
+				2BDD692663A9B325F4100147CFA5D1E8 /* MASViewAttribute.m */,
+				CAC318C812D80EDC8124EFF7F9CB8EC2 /* MASViewConstraint.h */,
+				2A3028BF9175CA7E45EDBE5CA958D03A /* MASViewConstraint.m */,
+				843EB33ADA6F8CE569FC505C840A0152 /* NSArray+MASAdditions.h */,
+				3ECA8B4AFE0135E78CFBB09F2530A2CB /* NSArray+MASAdditions.m */,
+				08DAFFFEDFB87E1516EE134461635390 /* NSArray+MASShorthandAdditions.h */,
+				14A0FC6AD32AAAFC8BDB8E28A840FDC4 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DFBAEFEA6C49FC859499557D3E2F804F /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CACBA33A789AE6C3416F00C8CF478E30 /* View+MASAdditions.h */,
+				7D722E575A9798248912AB0A50D9113E /* View+MASAdditions.m */,
+				C36A64A09E8DE4AFE888374078EB37F1 /* View+MASShorthandAdditions.h */,
+				06C04F677332A1102F03500E17D4D192 /* ViewController+MASAdditions.h */,
+				FA39D3A1DF9B939FDE7FC8425C1D8129 /* ViewController+MASAdditions.m */,
+				FDBB003E18E6C12D41143AFD26E00FB8 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		E51B66D5A7409AD3A6D9AEE852977942 /* CTMediator-ZW */ = {
+			isa = PBXGroup;
+			children = (
+				FDA69D3050CDBF02C0B79D793ED151ED /* CTMediator.h */,
+				7FC6AC8D575F5DA13BC0C13B4F156C5A /* CTMediator.m */,
+				988F1FD98772AE55FBEECCFDF20CC459 /* Support Files */,
+			);
+			name = "CTMediator-ZW";
+			path = "CTMediator-ZW";
+			sourceTree = "<group>";
+		};
+		E5CD6973C5A5A4F0AD161D6DBEEDD38D /* Pods-iOSModuleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7708EA16B7B150A437CFE356EF48CB7 /* Pods-iOSModuleDemoTests-acknowledgements.markdown */,
+				63780C0919505EF0E7365B3A070561F5 /* Pods-iOSModuleDemoTests-acknowledgements.plist */,
+				8DB327B59DF37E0B410C5E2C6ADB2FB4 /* Pods-iOSModuleDemoTests-dummy.m */,
+				BD4CB2E9FEA7BFD6E236AE5F7A835723 /* Pods-iOSModuleDemoTests.debug.xcconfig */,
+				576004418C285ED4E05208A71A675B5A /* Pods-iOSModuleDemoTests.release.xcconfig */,
+			);
+			name = "Pods-iOSModuleDemoTests";
+			path = "Target Support Files/Pods-iOSModuleDemoTests";
+			sourceTree = "<group>";
+		};
+		EB0AE03C3E1016C378E784E80F803E76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				289726BD22D4084FF9E5C162E2C33E11 /* CTMediatorModule.xcconfig */,
+				A956E8F41897B95B84FE14C63EF1F2A6 /* CTMediatorModule-dummy.m */,
+				4DBF690868DBC318298866472BA81018 /* CTMediatorModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../iOSModuleDemo/Pods/Target Support Files/CTMediatorModule";
+			sourceTree = "<group>";
+		};
+		FDBB003E18E6C12D41143AFD26E00FB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFC800E41670EBCB19485765AB7033E /* Masonry.xcconfig */,
+				DA930F82CDA0AD730502B219F12EFABF /* Masonry-dummy.m */,
+				B72D4B50D9C16DC08C81A9C727A0D8C3 /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32808F65ABD4A202C10A95DB6C374AC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4439B281EC3D60F53FECF2B8769A35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7429EE12BB147F80BF95CD431A885980 /* CTMediator+ModuleTest.h in Headers */,
+				0F82BCBE8FAC410E208CBCC7C5A74D1C /* ModuleTestView.h in Headers */,
+				9AEF7D1DE8F4A28F758C928D0BAE4FC8 /* Target_ModuleTestView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C165B6F096A64CC321493EA8D6188 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1CEF2B08D18B900A16F3249C96DBEF /* MASCompositeConstraint.h in Headers */,
+				C1C295BCD795C2B6044DB474583804B1 /* MASConstraint+Private.h in Headers */,
+				834D1BB9656D3E64B2AF8C0E0119A37F /* MASConstraint.h in Headers */,
+				06A4624C0490881FD7962E6F2768469F /* MASConstraintMaker.h in Headers */,
+				F0223A4EEF0A05E2DBC75767471884A2 /* MASLayoutConstraint.h in Headers */,
+				C7AC29F56D5F471248BBA0A724CDF3C7 /* Masonry.h in Headers */,
+				E94F68ABEAC53DD4556594E0EE4EAD57 /* MASUtilities.h in Headers */,
+				62ED0D1B1D2D5EF2225776A9C2BAF4DA /* MASViewAttribute.h in Headers */,
+				1D12FE6ABBFFDECF65CA15759AD0E411 /* MASViewConstraint.h in Headers */,
+				29214D8D2E69809E66F0C8A98A36BCCE /* NSArray+MASAdditions.h in Headers */,
+				96DB2AB39DFEB82319EF630730FDE4FD /* NSArray+MASShorthandAdditions.h in Headers */,
+				147370B40CE853ADCC91F9C81FF5E5FA /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				7C31AFA9C95568E16B6911B670754372 /* View+MASAdditions.h in Headers */,
+				5E44F7CFDA34CB0B1F1A65A19641AC7D /* View+MASShorthandAdditions.h in Headers */,
+				24F67F67B66D71384E9B66CF81AF84B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A367B7A6D33BD52158901C7BBC12CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB933D3C6AC62B87771E998124EA9CE8 /* BeeHive.h in Headers */,
+				C6776BC0C4D4589B08AAD16735A9AA66 /* BHAnnotation.h in Headers */,
+				93BEF8B692DA67A649705F80C335EACA /* BHAppDelegate.h in Headers */,
+				A2F5609937D6130E41F2484FEFBFC36A /* BHCommon.h in Headers */,
+				40E3CEF5E1C5D40690C42C4F5DD7B566 /* BHConfig.h in Headers */,
+				8604DC8631BBABD2B57B6BC5F94DBDA4 /* BHContext.h in Headers */,
+				CBAE84BDB22FECC10EC64084D856E8B8 /* BHDefines.h in Headers */,
+				1CEC1B6A75E47389A396D455D3D0C6BB /* BHModuleManager.h in Headers */,
+				985A2A913A8197CFC5DFF96658AA59CB /* BHModuleProtocol.h in Headers */,
+				C3B20003CAB0D7891005C42A9376030A /* BHRouter.h in Headers */,
+				6EA09924108BA6C1E7D2138CE112D5E9 /* BHServiceManager.h in Headers */,
+				B9FCAB4EF2F2CD0AB3254E5FEBE66B7C /* BHServiceProtocol.h in Headers */,
+				BF94A55E2CDE74BA27FDA453E17265CD /* BHTimeProfiler.h in Headers */,
+				52862FCA26B576483345E1D91217DCFA /* BHWatchDog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB5411C2FFA4F469DB8ED492189BA96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C4279010000204DF2678A864F334A3 /* BeeHiveViewController.h in Headers */,
+				FD7145D129F6C9B749873228382F4598 /* BeeModule.h in Headers */,
+				EB5D32B843C32E86B58FB8A895D4D1C7 /* BeeServiceProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE2EAD2688BEC68D00DC4E7EFCE2B4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5A28E0EA5485C92D63444A377D7D20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02DA9E8A50136D9558642E8E21FD948 /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD9756DE1C7B91F1E143CFCAA99E345 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A2A27C6BF87C3EB8B88FAB7FA9CE794 /* CTMediator-ZW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE64FFCAAD9ECE286E4D41146E420F4C /* Build configuration list for PBXNativeTarget "CTMediator-ZW" */;
+			buildPhases = (
+				CB5A28E0EA5485C92D63444A377D7D20 /* Headers */,
+				2F43915DFB74B209D0C431AE43AEB0E2 /* Sources */,
+				F8108827BDFA645D4CF93DA3195C1A94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CTMediator-ZW";
+			productName = "CTMediator-ZW";
+			productReference = C22E9123B3167DC56288255076C863F8 /* libCTMediator-ZW.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A48815704C417CF473F411AA17906260 /* BeeHiveModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE663CF5E9F7C1FE578DD7485191C851 /* Build configuration list for PBXNativeTarget "BeeHiveModule" */;
+			buildPhases = (
+				AAB5411C2FFA4F469DB8ED492189BA96 /* Headers */,
+				EDFC388EEF859EABD9CFCB0E6AEF94F2 /* Sources */,
+				DCBD49DF5D9D5A82183EFE5EB1C1672F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeHiveModule;
+			productName = BeeHiveModule;
+			productReference = 7B7FD9AB8A6F4BF34D31F237C262207D /* libBeeHiveModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ADDD5BC6EF4D8B7FF19D607FBA18A3C3 /* CTMediatorModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B49AF81B0A1F19C1F6256E4BD0AF7D1 /* Build configuration list for PBXNativeTarget "CTMediatorModule" */;
+			buildPhases = (
+				5E4439B281EC3D60F53FECF2B8769A35 /* Headers */,
+				1EF07A06C14399B6AF7B38F5A0A571FA /* Sources */,
+				F6C9C99CA0FC3A3580006DFA14CEEBCB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediatorModule;
+			productName = CTMediatorModule;
+			productReference = 38B0575CE56B780DCF39ADED4AB62910 /* libCTMediatorModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2608CA806BCB0F2DE805296607104DF /* Pods-iOSModuleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2D2AADDCFC3A1FC323EFACD324BFA5 /* Build configuration list for PBXNativeTarget "Pods-iOSModuleDemoTests" */;
+			buildPhases = (
+				32808F65ABD4A202C10A95DB6C374AC6 /* Headers */,
+				BF2358581F979B9FB41774BA032EFF1F /* Sources */,
+				DA8C7DED95492267EDDB1C37EC5581CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92D5883A7C8739ED989283207B5853DF /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSModuleDemoTests";
+			productName = "Pods-iOSModuleDemoTests";
+			productReference = 7514A463673369E4C898DE5B10D9FF1B /* libPods-iOSModuleDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B7DA1E50832664D549F878F8C4C4904C /* BeeHive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4351EFA19745A01E092073558749BA /* Build configuration list for PBXNativeTarget "BeeHive" */;
+			buildPhases = (
+				A1A367B7A6D33BD52158901C7BBC12CB /* Headers */,
+				EAEBB63FF5545B2EFF11E04DBBF26930 /* Sources */,
+				E3B7D22817A4DA5FE2B1806B94D3CA31 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeHive;
+			productName = BeeHive;
+			productReference = C98B9906125D0BBBD149B503F8A70DA8 /* libBeeHive.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B854683690DC218F2B6E2FFDB0D27CDC /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF625691042B208B0F87D7C89735A2BB /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				864C165B6F096A64CC321493EA8D6188 /* Headers */,
+				20B59DF52315F7BEE4C186DFC2709780 /* Sources */,
+				2F0A8E3741C526A5E692BC509794E501 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 0FD90207A365C8FAAB4D51AC4D984CE0 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C9A05C0CC59C7EBB5C3E1070F66013A9 /* Pods-iOSModuleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBDDF8E0884A24183317EAE3390A6B8 /* Build configuration list for PBXNativeTarget "Pods-iOSModuleDemo" */;
+			buildPhases = (
+				AFE2EAD2688BEC68D00DC4E7EFCE2B4E /* Headers */,
+				43D6E1A6664B3871EF7C5E7172E6934E /* Sources */,
+				2CE390D3BC0C793C5BE34181038B0F7D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CBC6BC75510D97F755B8FEE5520A72D /* PBXTargetDependency */,
+				9D78A537945B830D4AB19867C43B1F15 /* PBXTargetDependency */,
+				998D1E8E3E67D14B9F93BCFFB000E4E3 /* PBXTargetDependency */,
+				8210C38A8482A29AD17EE50D18BC23D5 /* PBXTargetDependency */,
+				33B8E993551D87ACA83E61BE46411AC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSModuleDemo";
+			productName = "Pods-iOSModuleDemo";
+			productReference = CE4D0649DEC01261E21AD2B0104B7B00 /* libPods-iOSModuleDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC44CA3D8DF077C9FF41604C994AEC94 /* Pods-iOSModuleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC091082E2A83073265EE25D00DF3E70 /* Build configuration list for PBXNativeTarget "Pods-iOSModuleDemoUITests" */;
+			buildPhases = (
+				CBD9756DE1C7B91F1E143CFCAA99E345 /* Headers */,
+				50C01F0ACD5F9F86409A62B7AEE35B4A /* Sources */,
+				B52C972566392F3ED485B4C947B6E7FB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EB7726BAB14EB628973CE282C64B0A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSModuleDemoUITests";
+			productName = "Pods-iOSModuleDemoUITests";
+			productReference = 0ADDCD72F240D513D5C868E5E2FAE20B /* libPods-iOSModuleDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 713D037204C0F4BC1B76071D6A2D2740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7DA1E50832664D549F878F8C4C4904C /* BeeHive */,
+				A48815704C417CF473F411AA17906260 /* BeeHiveModule */,
+				7A2A27C6BF87C3EB8B88FAB7FA9CE794 /* CTMediator-ZW */,
+				ADDD5BC6EF4D8B7FF19D607FBA18A3C3 /* CTMediatorModule */,
+				B854683690DC218F2B6E2FFDB0D27CDC /* Masonry */,
+				C9A05C0CC59C7EBB5C3E1070F66013A9 /* Pods-iOSModuleDemo */,
+				B2608CA806BCB0F2DE805296607104DF /* Pods-iOSModuleDemoTests */,
+				FC44CA3D8DF077C9FF41604C994AEC94 /* Pods-iOSModuleDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF07A06C14399B6AF7B38F5A0A571FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEDBC3A2CFD84C9A4E75278C401F5FB /* CTMediator+ModuleTest.m in Sources */,
+				219F170BCAB27F8FC6475EE9265B4965 /* CTMediatorModule-dummy.m in Sources */,
+				0388F92F9B7CEB2861637343F1475620 /* ModuleTestView.m in Sources */,
+				01A1E77B03A2BCBA235BEF6D78A3CDAC /* Target_ModuleTestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B59DF52315F7BEE4C186DFC2709780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3B9E29E64A41419BADE54AEFDAF08E /* MASCompositeConstraint.m in Sources */,
+				B5F8B45888F4DFECC89DBA2B0307C178 /* MASConstraint.m in Sources */,
+				60DC27F14226DDD592FA1464C2DA0C2E /* MASConstraintMaker.m in Sources */,
+				AB74AF1EEF7E9D9855E150F344F8CBD5 /* MASLayoutConstraint.m in Sources */,
+				34D6D9E7FEAF947841106F0662A2E52D /* Masonry-dummy.m in Sources */,
+				9F7245F368B8CD09FE3F2C36BAA2842D /* MASViewAttribute.m in Sources */,
+				591F1FA04AB069DD22008A8BABAAB829 /* MASViewConstraint.m in Sources */,
+				D59F2BB9843C83057A2BAAD5054B68AE /* NSArray+MASAdditions.m in Sources */,
+				C48DF5D21345BD3D127256C6AD3AEFD4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				EAED263ADDF8EBE21F1EE02F9FB8FD7E /* View+MASAdditions.m in Sources */,
+				D1D4442E6949DAF0EB2688A85F889E8D /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F43915DFB74B209D0C431AE43AEB0E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDB70C2CDDE77AACEA74170E6935626 /* CTMediator-ZW-dummy.m in Sources */,
+				74B96E9D040112F98644F5A395D817B8 /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D6E1A6664B3871EF7C5E7172E6934E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E446A21972E885799E45356D11C2F4F /* Pods-iOSModuleDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C01F0ACD5F9F86409A62B7AEE35B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E4FCB6C57092092F45D5BC215D3DEF /* Pods-iOSModuleDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2358581F979B9FB41774BA032EFF1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A4E0B4ED2B15F644A9F056EDC100E3 /* Pods-iOSModuleDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEBB63FF5545B2EFF11E04DBBF26930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0428391B2EF487F75B58582B951A1A5 /* BeeHive-dummy.m in Sources */,
+				66B4C14CCC5B9E8F9CA8BA457EED65E8 /* BeeHive.m in Sources */,
+				88ABCF0C5BA5BADF0CF452AA04BC9A78 /* BHAnnotation.m in Sources */,
+				459C9750455F1A7E6362321BFC185820 /* BHAppDelegate.m in Sources */,
+				56C5A6BE0B9B83B3027998B080B9DC35 /* BHConfig.m in Sources */,
+				E7B08F9E7D9FEE0BCC740EEB7FA4FFAC /* BHContext.m in Sources */,
+				CA216F45B25413DB36FA139AC29D5B56 /* BHModuleManager.m in Sources */,
+				84E3B5B044631D4A1B9E5D7ADD6C023C /* BHRouter.m in Sources */,
+				110C187C5F3EAF54838BC6C0500765BA /* BHServiceManager.m in Sources */,
+				BA22A97927BF4326DE8FAF546E3D7AA2 /* BHTimeProfiler.m in Sources */,
+				8D4A327F7A854D4224FD4D9F943DAE07 /* BHWatchDog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFC388EEF859EABD9CFCB0E6AEF94F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B810A8865EAA96B680EF1D14B75FBB /* BeeHiveModule-dummy.m in Sources */,
+				8A547EA604541681BA266A290E97CB54 /* BeeHiveViewController.m in Sources */,
+				C3A19F937E4DC898260DEA69D984FCEA /* BeeModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EB7726BAB14EB628973CE282C64B0A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iOSModuleDemo";
+			target = C9A05C0CC59C7EBB5C3E1070F66013A9 /* Pods-iOSModuleDemo */;
+			targetProxy = C7A4F9680FE49EC1110A2ACCFBFB8F9E /* PBXContainerItemProxy */;
+		};
+		33B8E993551D87ACA83E61BE46411AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = B854683690DC218F2B6E2FFDB0D27CDC /* Masonry */;
+			targetProxy = 9C282F4874F63671B7D4845F305F71A6 /* PBXContainerItemProxy */;
+		};
+		3CBC6BC75510D97F755B8FEE5520A72D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BeeHive;
+			target = B7DA1E50832664D549F878F8C4C4904C /* BeeHive */;
+			targetProxy = 77C17061AC9A3BF2F78A10ED7A059221 /* PBXContainerItemProxy */;
+		};
+		8210C38A8482A29AD17EE50D18BC23D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediatorModule;
+			target = ADDD5BC6EF4D8B7FF19D607FBA18A3C3 /* CTMediatorModule */;
+			targetProxy = 3B0096C3B4E979B95ABD975FF202E189 /* PBXContainerItemProxy */;
+		};
+		92D5883A7C8739ED989283207B5853DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iOSModuleDemo";
+			target = C9A05C0CC59C7EBB5C3E1070F66013A9 /* Pods-iOSModuleDemo */;
+			targetProxy = F4795A56A59455ED7286A602C19AAF70 /* PBXContainerItemProxy */;
+		};
+		998D1E8E3E67D14B9F93BCFFB000E4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CTMediator-ZW";
+			target = 7A2A27C6BF87C3EB8B88FAB7FA9CE794 /* CTMediator-ZW */;
+			targetProxy = 4C139D3008967AF91BFD0F16AEDFB848 /* PBXContainerItemProxy */;
+		};
+		9D78A537945B830D4AB19867C43B1F15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BeeHiveModule;
+			target = A48815704C417CF473F411AA17906260 /* BeeHiveModule */;
+			targetProxy = A86D2E4BD9C4FC53D87BE1E93FE4DECD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05792B2475789394DF11758B07B2DEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F469C23D360E9CB9D2675D1576472665 /* BeeHive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BeeHive/BeeHive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BeeHive;
+				PRODUCT_NAME = BeeHive;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		281A2900B6A4D2751D486541DFADC1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289726BD22D4084FF9E5C162E2C33E11 /* CTMediatorModule.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediatorModule/CTMediatorModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediatorModule;
+				PRODUCT_NAME = CTMediatorModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		381A6C798BCF143FB0F5AB5B037E4EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289726BD22D4084FF9E5C162E2C33E11 /* CTMediatorModule.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediatorModule/CTMediatorModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediatorModule;
+				PRODUCT_NAME = CTMediatorModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48E72AFE37C0559A0B35758204AA4762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D595FC2E0AF98B47C09BD4B125EA5C /* BeeHiveModule.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BeeHiveModule/BeeHiveModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BeeHiveModule;
+				PRODUCT_NAME = BeeHiveModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CA254F4F813C42529B6540B7B778BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD9303FA028ED3155C68D14CB729D87 /* Pods-iOSModuleDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6692F3A0487543915C4AE311D15F4934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3368981886DADC4589A8C1ACE5987F /* Pods-iOSModuleDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		781A9652105C38E77462B93888E60FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 081938525E96FC477A5AA3DEE3E199A9 /* Pods-iOSModuleDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8583D4F20935CA85C36104645696E9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576004418C285ED4E05208A71A675B5A /* Pods-iOSModuleDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8634FD8CE02D461AC7AA47A05826F36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFFD94611DA310668503198FBD50C06 /* CTMediator-ZW.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator-ZW/CTMediator-ZW-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediator_ZW;
+				PRODUCT_NAME = "CTMediator-ZW";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C3DCCF6B5839F21EB4AC097B12672C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFC800E41670EBCB19485765AB7033E /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EC16270ABDAFAB2C68CC1A5CFB6EAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D50235AC7C715B34005E48649F04289 /* Pods-iOSModuleDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A56F1C6C2D49A2747C9718F3DB801B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F469C23D360E9CB9D2675D1576472665 /* BeeHive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BeeHive/BeeHive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BeeHive;
+				PRODUCT_NAME = BeeHive;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BECA447F7254FE0114CC584D51335249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFFD94611DA310668503198FBD50C06 /* CTMediator-ZW.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator-ZW/CTMediator-ZW-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediator_ZW;
+				PRODUCT_NAME = "CTMediator-ZW";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C826A07BCF57DD96D392F7012146BBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D595FC2E0AF98B47C09BD4B125EA5C /* BeeHiveModule.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BeeHiveModule/BeeHiveModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BeeHiveModule;
+				PRODUCT_NAME = BeeHiveModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A2ADF8E19405B820AE14A234B07C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFC800E41670EBCB19485765AB7033E /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB5D53DF6C9BFE4696E98EBFABBEEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4CB2E9FEA7BFD6E236AE5F7A835723 /* Pods-iOSModuleDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EBDDF8E0884A24183317EAE3390A6B8 /* Build configuration list for PBXNativeTarget "Pods-iOSModuleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6692F3A0487543915C4AE311D15F4934 /* Debug */,
+				4CA254F4F813C42529B6540B7B778BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B49AF81B0A1F19C1F6256E4BD0AF7D1 /* Build configuration list for PBXNativeTarget "CTMediatorModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281A2900B6A4D2751D486541DFADC1BD /* Debug */,
+				381A6C798BCF143FB0F5AB5B037E4EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4351EFA19745A01E092073558749BA /* Build configuration list for PBXNativeTarget "BeeHive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56F1C6C2D49A2747C9718F3DB801B4A /* Debug */,
+				05792B2475789394DF11758B07B2DEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE64FFCAAD9ECE286E4D41146E420F4C /* Build configuration list for PBXNativeTarget "CTMediator-ZW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8634FD8CE02D461AC7AA47A05826F36C /* Debug */,
+				BECA447F7254FE0114CC584D51335249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC091082E2A83073265EE25D00DF3E70 /* Build configuration list for PBXNativeTarget "Pods-iOSModuleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC16270ABDAFAB2C68CC1A5CFB6EAD4 /* Debug */,
+				781A9652105C38E77462B93888E60FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE663CF5E9F7C1FE578DD7485191C851 /* Build configuration list for PBXNativeTarget "BeeHiveModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E72AFE37C0559A0B35758204AA4762 /* Debug */,
+				C826A07BCF57DD96D392F7012146BBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF625691042B208B0F87D7C89735A2BB /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A2ADF8E19405B820AE14A234B07C6F /* Debug */,
+				9C3DCCF6B5839F21EB4AC097B12672C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2D2AADDCFC3A1FC323EFACD324BFA5 /* Build configuration list for PBXNativeTarget "Pods-iOSModuleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB5D53DF6C9BFE4696E98EBFABBEEFF /* Debug */,
+				8583D4F20935CA85C36104645696E9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
